@@ -1,156 +1,246 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>POPCORN WORKSHOPS</title>
+<html lang="zh-CN">
 
-<link href="css/style.css" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POPCORN WORKSHOPS / 爆米花工坊</title>
+
+    <link href="css/style.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-<div class="container">
+    <div class="container">
 
-<div class="profile">
+        <!-- Language Switcher -->
+        <div class="lang-switcher">
+            <button class="lang-btn active" data-lang="both">EN / 中文</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="zh">中文</button>
+        </div>
 
-<div>
-<h1>Why,HELLO!</h1>
+        <div class="profile">
 
-<p>Hey!This is <b>NikumaruNamo</b>. A.K.A. Coffee the Barista. </p>
+            <div>
+                <h1 data-lang="en">Why,HELLO!</h1>
+                <p data-lang="zh">嘿！你好呀！</p>
 
-<p>... and now, you are in my POPCORN WORKSHOPS!</p>
+                <p data-lang="en">Hey!This is <b>NikumaruNamo</b>. A.K.A. Coffee the Barista. </p>
+                <p data-lang="zh">嘿！这是 <b>NikumaruNamo</b>，又名咖啡师 Coffee。</p>
 
-<blockquote>TO THE PAST IS THE FUTURE</blockquote>
+                <p data-lang="en">... and now, you are in my POPCORN WORKSHOPS!</p>
+                <p data-lang="zh">……而现在，你来到了我的爆米花工坊！</p>
 
-<tiny>Last Edited: 6/14/2026</tiny>
+                <blockquote data-lang="en">TO THE PAST IS THE FUTURE</blockquote>
+                <p data-lang="zh">回望过去即是未来</p>
 
-</div>
+                <tiny><span data-lang="en" class="inline-lang">Last Edited: 6/14/2026</span> <span data-lang="zh"
+                        class="inline-lang">最后编辑：2026年6月14日</span></tiny>
 
-<img src="img/avatar.gif" class="avatar">
-</div>
+            </div>
 
-<h2>WHO <rage>THE FUCK</rage> IS THAT???</h2>
-<ul>
-<li>Your local and loyal coffee scolar, here to guard your smile.</li>
-<li>Beginner indie developer, pixel artist<tiny> i guess...</tiny>, sometimes composes.<br><tiny>he is clumsy, be kind and mercy to him!</tiny></li>
-<li>2D Platformer maniac, Mario, Sonic, he plays ANYTHING!</li>
-<li>I LOVE <a href="https://www.kartkrew.org/">Dr.Robotnik's Ring Racers</a>!, It's amazing, It's peak, and, <rage>IT'S FREE!</rage></li>
-<li>Always on his project. Intrested? Let's work it out!</li>
-</ul>
+            <img src="img/avatar.gif" class="avatar">
+        </div>
+
+        <h2 data-lang="en">WHO <rage>THE FUCK</rage> IS THAT???</h2>
+        <p data-lang="zh">这货到底是谁？？？</p>
+        <ul>
+            <li><span data-lang="en" class="inline-lang">Your local and loyal coffee scolar, here to guard your
+                    smile.</span><br><span data-lang="zh" class="inline-lang">你身边忠实的那位咖啡学者，守护你的笑容。</span></li>
+            <li><span data-lang="en" class="inline-lang">Beginner indie developer, pixel artist<tiny> i guess...</tiny>,
+                    sometimes composes.</span><br>
+                <tiny data-lang="en" class="inline-lang">he is clumsy, be kind and mercy to him!</tiny><br><span
+                    data-lang="zh" class="inline-lang">独立开发者新手、像素画手（大概吧……），偶尔搞点作曲。</span><br>
+                <tiny data-lang="zh" class="inline-lang">他笨手笨脚的，对他好一点！</tiny>
+            </li>
+            <li><span data-lang="en" class="inline-lang">2D Platformer maniac, Mario, Sonic, he plays
+                    ANYTHING!</span><br><span data-lang="zh" class="inline-lang">2D平台游戏狂魔，马里奥、索尼克，他什么都玩！</span></li>
+            <li><span data-lang="en" class="inline-lang">I LOVE <a href="https://www.kartkrew.org/">Dr.Robotnik's Ring
+                        Racers</a>!, It's amazing, It's peak, and,
+                    <rage>IT'S FREE!</rage>
+                </span><br><span data-lang="zh" class="inline-lang">我超爱 <a
+                        href="https://www.kartkrew.org/">Dr.Robotnik's Ring
+                        Racers</a>！它太棒了，它是巅峰，而且，<rage>它是免费的！</rage></span>
+            </li>
+            <li><span data-lang="en" class="inline-lang">Always on his project. Intrested? Let's work it
+                    out!</span><br><span data-lang="zh" class="inline-lang">一直在捣鼓自己的项目。感兴趣吗？一起搞吧！</span></li>
+        </ul>
 
 
-<h2>COMMONS</h2>
+        <h2 data-lang="en">COMMONS</h2>
+        <p data-lang="zh">公共栏目</p>
 
-<details class="card-collapse">
-    <summary>
-        <span class="title">BLOGS</span>
-        <span class="icon">+</span>
-    </summary>
+        <details class="card-collapse">
+            <summary>
+                <span class="title"><span data-lang="en" class="inline-lang">BLOGS</span> <span data-lang="zh"
+                        class="inline-lang">博客</span></span>
+                <span class="icon">+</span>
+            </summary>
 
-    <div class="content">
-        <p>
-            No blogs are archived now!<br>
-            please be back later, or even later!
-        </p>
-    </div>
-</details>
+            <div class="content">
+                <p>
+                    <span data-lang="en" class="inline-lang">No blogs are archived now!</span><br>
+                    <span data-lang="zh" class="inline-lang">目前还没有博客存档！</span><br>
+                    <span data-lang="en" class="inline-lang">please be back later, or even later!</span><br>
+                    <span data-lang="zh" class="inline-lang">请稍后再来，或者……更晚一点！</span>
+                </p>
+            </div>
+        </details>
 
-<details class="card-collapse">
-    <summary>
-        <span class="title">FAQ</span>
-        <span class="icon">+</span>
-    </summary>
+        <details class="card-collapse">
+            <summary>
+                <span class="title"><span data-lang="en" class="inline-lang">FAQ</span> <span data-lang="zh"
+                        class="inline-lang">常见问题</span></span>
+                <span class="icon">+</span>
+            </summary>
 
 
             <div class="content">
 
                 <details class="card-collapse">
                     <summary>
-                        <span class="title"><blockquote>Request to delete specific stuff on the Internet?</blockquote></span>
+                        <span class="title">
+                            <blockquote data-lang="en">Request to delete specific stuff on the Internet?</blockquote>
+                            <blockquote data-lang="zh">请求删除互联网上的特定内容？</blockquote>
+                        </span>
                         <span class="icon">+</span>
                     </summary>
 
                     <div class="content">
                         <p>
-                            I used your stuff on the internet, and you want me to remove them?<br>
-                            Please send a <a href="mailto:NikumaruNamo@outlook.com?subject=Re:">email</a> to me. Detailedly indicate what content needs to be removed.<br>
-                            I'll respond and remove asap, thank you for understanding.
+                            <span data-lang="en" class="inline-lang">I used your stuff on the internet, and you want me
+                                to remove them?</span><br>
+                            <span data-lang="zh" class="inline-lang">我在网上用了你的东西，你希望我删掉它们？</span><br>
+                            <span data-lang="en" class="inline-lang">Please send a <a
+                                    href="mailto:NikumaruNamo@outlook.com?subject=Re:">email</a> to me.
+                                Detailedly indicate what content needs to be removed.</span><br>
+                            <span data-lang="zh" class="inline-lang">请给我发<a
+                                    href="mailto:NikumaruNamo@outlook.com?subject=Re:">邮件</a>，详细说明需要删除的内容。</span><br>
+                            <span data-lang="en" class="inline-lang">I'll respond and remove asap, thank you for
+                                understanding.</span><br>
+                            <span data-lang="zh" class="inline-lang">我会尽快回复并删除，感谢理解。</span>
                         </p>
                     </div>
                 </details>
 
                 <details class="card-collapse">
                     <summary>
-                        <span class="title"><blockquote>Do you accept commisions?</blockquote></span>
+                        <span class="title">
+                            <blockquote data-lang="en">Do you accept commisions?</blockquote>
+                            <blockquote data-lang="zh">你接委托吗？</blockquote>
+                        </span>
                         <span class="icon">+</span>
                     </summary>
 
                     <div class="content">
                         <p>
-                            I don't accept regular commisions.<br>
-                            If you really need me, you know where you can find me.
+                            <span data-lang="en" class="inline-lang">I don't accept regular commisions.</span><br>
+                            <span data-lang="zh" class="inline-lang">我不接常规委托。</span><br>
+                            <span data-lang="en" class="inline-lang">If you really need me, you know where you can find
+                                me.</span><br>
+                            <span data-lang="zh" class="inline-lang">如果你真的需要我，你知道在哪里能找到我。</span>
                         </p>
                     </div>
                 </details>
 
                 <details class="card-collapse">
                     <summary>
-                        <span class="title"><blockquote>Are you female?</blockquote></span>
+                        <span class="title">
+                            <blockquote data-lang="en">Are you female?</blockquote>
+                            <blockquote data-lang="zh">你是女生吗？</blockquote>
+                        </span>
                         <span class="icon">+</span>
                     </summary>
 
                     <div class="content">
                         <p>
-                            Male.<br><br>Thank you.
+                            <span data-lang="en" class="inline-lang">Male.</span><br><span data-lang="zh"
+                                class="inline-lang">男。</span><br><br><span data-lang="en" class="inline-lang">Thank
+                                you.</span><br><span data-lang="zh" class="inline-lang">谢谢。</span>
                         </p>
                     </div>
                 </details>
 
 
+            </div>
+        </details>
+
+
+        <h2 data-lang="en">WHAT'S FRESH</h2>
+        <p data-lang="zh">最近在干嘛</p>
+
+        <ul>
+            <li>
+                <span data-lang="en" class="inline-lang">Working on my first video game.</span><br>
+                <span data-lang="zh" class="inline-lang">正在制作我的第一款电子游戏。</span><br>
+                <span data-lang="en" class="inline-lang">It takes time... a lot of time!</span><br>
+                <span data-lang="zh" class="inline-lang">这很花时间……很多很多时间！</span>
+            </li>
+        </ul>
+
+        <h2 data-lang="en">WHERE YOU CAN FIND ME</h2>
+        <p data-lang="zh">在哪里可以找到我</p>
+
+        <p>
+            <span data-lang="en" class="inline-lang">Email:</span> <span data-lang="zh" class="inline-lang">邮箱：</span>
+            <a href="mailto:NikumaruNamo@outlook.com?subject=Re:">NikumaruNamo@outlook.com</a>
+        </p>
+
+        <p>
+            <span data-lang="en" class="inline-lang">Twitter:</span> <span data-lang="zh" class="inline-lang">推特：</span>
+            <a href="https://x.com/NikumaruNamo">@NikumaruNamo</a>
+        </p>
+
+        <h2 data-lang="en">Recycle Bin</h2>
+        <p data-lang="zh">回收站</p>
+        <details class="card-collapse">
+            <summary>
+                <span class="title"><span data-lang="en" class="inline-lang">Meme of the week.</span> <span
+                        data-lang="zh" class="inline-lang">本周 meme</span></span>
+                <span class="icon">+</span>
+            </summary>
+
+            <div class="content">
+                <img src="img/memeoftheweek.gif">
+            </div>
+        </details>
+
+
+
+        <footer><a href="http://www.wtfpl.net/">WTFPL</a> <span data-lang="en" class="inline-lang">unless otherwise
+                marked.</span> <span data-lang="zh" class="inline-lang">除非另有说明，否则采用 WTFPL 许可。</span></footer>
+        <!--Than you AJ “Tyron” Martinez I love you-->
     </div>
-</details>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const btns = document.querySelectorAll('.lang-btn');
+            const body = document.body;
 
-<h2>WHAT'S FRESH</h2>
+            btns.forEach(function (btn) {
+                btn.addEventListener('click', function () {
+                    const lang = btn.getAttribute('data-lang');
 
-<ul>
-<li>
-    Working on my first video game.<br>
-    It takes time... a lot of time!
-</li>
-</ul>
+                    // Update button active state
+                    btns.forEach(function (b) { b.classList.remove('active'); });
+                    btn.classList.add('active');
 
-<h2>WHERE YOU CAN FIND ME</h2>
-
-<p>
-Email:
-<a href="mailto:NikumaruNamo@outlook.com?subject=Re:">NikumaruNamo@outlook.com</a>
-</p>
-
-<p>
-Twitter:
-<a href="https://x.com/NikumaruNamo">@NikumaruNamo</a>
-</p>
-
-<h2>Recycle Bin</h2>
-<details class="card-collapse">
-    <summary>
-        <span class="title">Meme of the week.</span>
-        <span class="icon">+</span>
-    </summary>
-
-    <div class="content">
-        <img src="img/memeoftheweek.gif">
-    </div>
-</details>
-
-
-
-<footer><a href="http://www.wtfpl.net/">WTFPL</a> unless otherwise marked.</footer>
-<!--Than you AJ “Tyron” Martinez I love you-->
-</div>
+                    // Update body class
+                    body.className = '';
+                    if (lang === 'en') {
+                        body.classList.add('lang-en');
+                    } else if (lang === 'zh') {
+                        body.classList.add('lang-zh');
+                    } else {
+                        body.classList.add('lang-both');
+                    }
+                });
+            });
+        });
+    </script>
 
 </body>
+
 </html>
